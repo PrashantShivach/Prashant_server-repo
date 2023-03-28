@@ -3,7 +3,7 @@ pipeline{
   stages{
     stage('clone'){
       steps{
-        
+        git branch: 'main', url: 'https://github.com/PrashantShivach/Prashant_server-repo.git'
       }
     }
     stage('build'){
