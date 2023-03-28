@@ -8,7 +8,7 @@ pipeline{
     }
     stage('build'){
       steps{
-        sh 'python prashant.py'
+        sh 'python3 prashant.py'
       }
     }
     
